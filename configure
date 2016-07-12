@@ -12,7 +12,7 @@ fi
 MKL_CONFIGURE_ARGS="$0 $*"
 
 # Load base module
-source mklove/modules/configure.base
+source /kafkacat/mklove/modules/configure.base
 
 # Read some special command line options right away that must be known prior to
 # sourcing modules.
